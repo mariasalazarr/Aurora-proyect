@@ -1,0 +1,12 @@
+
+footer {
+    background-color: rgb(151, 165, 177);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+    div ul li {
+        list-style-type: none;
+        text-decoration: none;
+    }
+}

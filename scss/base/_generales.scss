@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Playwrite+PL:wght@253&family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    max-width: 1015px;
+    margin: auto;
+    background-color: #f8f8f8;
+    opacity: 0.8;
+    background-image: radial-gradient(#e5e5e5 2px, #f8f8f8 2px);
+    background-size: 40px 40px;
+}
+
+
+p {
+    font-family: "Segoe UI";
+    letter-spacing: 0.05rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+}
