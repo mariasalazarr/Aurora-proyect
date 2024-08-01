@@ -1,8 +1,9 @@
 <h1 align="center">Hi 👋, I'm Maria V Salazar</h1>
-<h3 align="center">I've got a serious case of hobby overload. Psychologist, wannabe comic artist, and accidental web developer. Help!</h3>
+<h3 align="center">AurorClubLovers es un proyecto personal creado con React y Node.js, dedicado a la talentosa cantante Aurora. Explora una extensa galería de fotos de alta calidad y únete a la comunidad de fans. ¡Contribuciones bienvenidas!</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+<a href="https://instagram.com/eruhirasawa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="eruhirasawa" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
