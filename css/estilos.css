@@ -127,7 +127,8 @@ main div h2 {
   grid-row: 1/3; }
 
 .villain-siete {
-  grid-column: 1/4; }
+  grid-column: 2/4;
+  grid-row: 2; }
 
 .home {
   margin-top: 10px;
@@ -207,6 +208,6 @@ footer {
   .villain-cinco {
     grid-column: 1/3;
     grid-row: 8/9; }
-  .villain-seis {
-    grid-column: 1/4;
+  .villain-siete {
+    grid-column: 1/3;
     grid-row: 9/10; } }

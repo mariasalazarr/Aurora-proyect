@@ -192,6 +192,12 @@ iframe {
     margin-top: 20px;
 }
 
+/*!-----main letras-----*/
+main section div {
+    display: flex;
+}
+
+
 /*!----FOOTER----*/
 footer {
     background-color: rgb(151, 165, 177);
