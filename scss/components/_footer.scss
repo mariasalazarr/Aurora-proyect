@@ -1,12 +1,42 @@
 
 footer {
     background-color: rgb(151, 165, 177);
+    border: 2px solid rgb(135, 135, 180);
+    border-radius: 12px;
     color: white;
     display: flex;
     justify-content: space-evenly;
 
-    div ul li {
-        list-style-type: none;
-        text-decoration: none;
+
+    h2 {
+        color: aliceblue;
+        font-size: 28px;
+        text-align: center;
+
     }
+
+    div ul {
+            display: flex;
+            flex-direction: row;
+            padding: 5px;
+        
+    li {
+        list-style-type: none;
+        text-decoration: none; 
+        padding: 5px;       
+
+        a {
+            text-decoration: none;
+        }
+    }
+}
+    div {
+        display: flex;
+        flex-direction: column;  
+        align-items:flex-end;
+    h3 {
+        font-size: 18px;
+        padding: 10px; 
+    }
+}
 }

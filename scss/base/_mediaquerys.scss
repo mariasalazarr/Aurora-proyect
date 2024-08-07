@@ -23,7 +23,29 @@
 header nav ul{
     flex-direction: column;
     justify-content: center;
-}}
+    }
+}
+
+@media screen and (max-width:510px){
+    footer {
+        h2 {
+            font-size: 18px;
+        }
+        div {
+            ul{
+            flex-direction: column;
+                li{
+                    a{
+                        img{
+                        width: 48px;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}
+}
 
 
 @media screen and (max-width:800px){
@@ -57,32 +79,38 @@ header nav ul{
     
 @media screen and (max-width:960px){
     .villain {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows:auto auto;
+        grid-template-columns: 3 repeat();
+        grid-template-rows:auto;
         gap: 15px;
     }
-    .texto-outfits{
-        grid-column:1/4;
-    grid-row: 1/2;
-    }
+        
+    
     .villain-uno{
-        grid-column:1/4;
+        grid-column:1;
         grid-row: 4/5;
     }
     .villain-tres{
         grid-column:1/4;
-        grid-row: 7/8;
+        grid-row:2;
     }
     .villain-cuatro{
-        grid-column:1/3;
-        grid-row: 6/7;
+        grid-column:1/4;
+        grid-row: 1;   
     }
     .villain-cinco{
-        grid-column:1/3;
-        grid-row: 8/9;
+        grid-column:1/4;
+        grid-row: 4/5;
     }
     .villain-siete{
-        grid-column:1/3;
-        grid-row: 9/10;
+        grid-column:1/4;
+        grid-row:5/6;
     }
+    .villain-ocho {
+        grid-column:1/4;
+        grid-row: 3/4;
     }
+    .villan-nueve {
+        grid-column:1/4;
+        grid-row: 6/7;
+    }
+}
