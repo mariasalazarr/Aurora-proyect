@@ -9,15 +9,12 @@ body {
     font-family: "Playwrite PL", cursive;
     font-optical-sizing: auto;
     font-weight: weight;
-    font-style: normal;
     max-width: 1115px;
     margin: auto;
     background-color: #f8f8f8;
     opacity: 0.8;
     background-image: radial-gradient(#e5e5e5 2px, #f8f8f8 2px);
     background-size: 40px 40px;
-}
-
 
 p {
     font-family: "Segoe UI";
@@ -26,7 +23,7 @@ p {
     line-height: 1.6rem;
 }
 
-h2 {
+h1 {
     font-size: 38px;
     color: #3e2b2b;
     margin: 20px;
@@ -34,8 +31,39 @@ h2 {
         padding: 6px;
         font-weight: bold;
             padding: 10px;
+    }
+
+h2 {
+    font-size: 38px;
+    margin: 20px;
+    text-align: center;
+        padding: 6px;
+        font-weight: bold;
+            padding: 10px;
+}
+}
+/*Ajustar el BOOTSTRAP*/
+.navbar-light {
+    background-color: transparent !important;
 }
 
+/*mixin hover*/
+@mixin hover-transform($scale){
+    transition: 1s;
+    &:hover{
+        transform: scale($scale);
+    }
+}
+/*botones en h2, letras, videos*/
+@mixin styled-heading($bg-color, $radius, $font-size, $link-color) {
+    background-color: $bg-color;
+    border-radius: $radius;
+    font-size: $font-size;
+    /*color para el h2 que no es un enlace, en la pagina de login*/
+    color: #e5e5e5;
 
-
-
+    a {
+        text-decoration: none;
+        color: $link-color;
+    }
+}

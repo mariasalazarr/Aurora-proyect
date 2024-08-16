@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Maria V Salazar</h1>
-<h3 align="center">AurorClubLovers es un proyecto personal creado con React y Node.js, dedicado a la talentosa cantante Aurora. Explora una extensa galería de fotos de alta calidad y únete a la comunidad de fans. ¡Contribuciones bienvenidas!</h3>
+<h3 align="center">AurorClubLovers es un proyecto personal dedicado a la talentosa cantante Aurora. Explora una extensa galería de fotos de alta calidad y únete a la comunidad de fans. ¡Contribuciones bienvenidas!</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
